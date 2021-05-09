@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta is mainly used in SEO (Search engine optimization) -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial HTML</title>
+    <!-- This is how u include external css -->
+    <link rel="stylesheet" href="gayu.css">
+    <!-- This is how u include external java script -->
+    <script src="gayu.js"></script>
+    <!-- External css  -->
+    <link rel="stylesheet" href="tut1_css.css">
+    <!-- Internal css  -->
+    <style>
+        body {
+            background-color: rgb(205, 203, 233);
+        }
+
+        span {
+            color: white;
+            background-color: blue;
+        }
+
+        #redelement {
+            font-style: italic;
+            color: tomato;
+        }
+
+        .blueelement {
+
+            color: blue;
+
+        }
+
+        #cssfont {
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            font-size: 23px;
+            /* px=1/96th of a inch*/
+            Line-height: 8.3em;
+            font-weight: bold;
+        }
+
+        #firstpara {
+            color: red;
+            /* color by name */
+        }
+
+        #secondpara {
+            color: rgb(31, 8, 161);
+        }
+
+        #thirdpara {
+            color: #f36;
+        }
+
+        #newpara {
+            color: white;
+            background-color: Red;
+            height: 100px;
+            width: 444px;
+            border: 4px solid rgb(25, 0, 255);
+            /*border-width: 4px;
+            border-color: yellow;
+            border-style: solid;*/
+        }
+
+        #new1para {
+            color: white;
+            height: 900px;
+            width: 1350px;
+            border: 4px solid black;
+            background-image: url('https://companyofwomen.co/wp-content/uploads/2018/08/TrainYourBrain-1.jpg');
+            background-repeat: no-repeat;
+            background-position: centre centre;
+            text-align: center;
+        }
+
+        .container {
+            background-color: rgb(139, 162, 230);
+            border: 4px solid rgb(25, 8, 179);
+            /* we can set margin/padding for top, bottom, left, right like this   */
+            /* padding-top:50px;
+            padding-bottom:50px;
+            padding-right:50px;
+            padding-left:50px; */
+
+            /* margin = top right bottom left ;
+            padding = top right bottom left; */
+
+            /* margin = 23px 23px 78px 50px ;
+            padding = 41px 25px 60px 55px; */
+
+
+
+            padding: 20px;
+            margin: 50px;
+            border-radius: 23px;
+            width: 533px box-sizing: border-box;
+
+
+        }
+
+        .container1 {
+            background-color: rosybrown;
+
+
+            border: 15px solid rgb(19, 6, 95);
+        }
+
+        .item {
+            background-color: silver;
+
+            border: 4px solid rgb(160, 42, 21);
+            padding-left: 23px;
+            margin: 23px;
+        }
+
+        #fruit {
+            /* float:left;  */
+            width: 45%;
+        }
+
+        #computer {
+            /* float:left;  */
+            width: 45%;
+
+
+        }
+
+        #stationery {
+            /* float:right;  */
+            width: 45%;
+
+        }
+
+        .cont {
+            border: 2px solid rgb(196, 6, 6);
+            background-color: rgb(93, 240, 105);
+            padding: 25px;
+            margin: 25px auto;
+            width: 450px;
+        }
+
+        a {}
+
+        .btn {
+            padding: 6px;
+            background-color: rgb(41, 207, 41);
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        a:hover {
+            color: rbg(5, 0, 0);
+            background-color: skyblue;
+        }
+
+        a:active {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADINGS AND PARAGRAPHS -->
+    <h1 id="helloworld">Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <p>This is Gayatri</p>
+    <p>This is new para</p>
+    <!-- Lorem40 will print 40 words Lorem5 will print 5 words -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus deserunt aliquid ratione omnis rem quia doloribus,
+        <strong>This is strong</strong>eius repellat a ab doloremque sapiente ipsam aliquam blanditiis,<em>Ths is
+            emphasized</em> nihil tempore dolorum? Provident harum quo alias ipsa iure, veniam explicabo magni minus
+        nemo temporibus eum quae culpa eveniet iste. Beatae dolorum non accusantium cumque.
+    </p>
+    <p>First<br>This is a new line</p>
+
+    <p>Second</p>
+    <p>Third</p>
+    <hr>
+    <!-- IMG AND ANCHOR TAGS -->
+    <!-- ctrl + enter to directly jump to new line in a code -->
+    <a href="https:/google.com" target="_blank">Go to Google</a><br>
+    <a href="https:/facebook.com" target="_blank">Go to facebook</a><br>
+    <a href="https:/twitter.com" target="_blank">Go to twitter</a><br>
+    <a href="https:/linkedin.com" target="_blank">Go to linkedin</a><br>
+    <a href="C:\Users\SHRIDHAR KAPSE\Videos\Captures">click on this video</a>
+
+    <h4>click this to acces a video</h4>
+    </a><br>
+    <img src="gayu.jpg" alt="Error loading the image">
+    <img src="https://source.unsplash.com/user/erondu/700x700" alt="remote img">
+    <hr>
+    <!--LISTS(OL and UL) -->
+    <h2>LISTS</h2>
+    <ol type=A>
+        <li>This is the first item of ordered list</li>
+        <li>This is the second item of ordered list</li>
+        <li>
+            <ol type=a>
+                <li>Another one</li>
+                <li>Another two</li>
+                <li>Another three</li>
+
+            </ol>
+        </li>
+        <li>This is the third item of ordered list</li>
+        <li>This is the fourth item of ordered list</li>
+    </ol>
+    <ul type=square>
+        <li>This is the first item of ordered list</li>
+        <li>This is the second item of ordered list</li>
+        <li>This is the third item of ordered list</li>
+        <li>This is the fourth item of ordered list</li>
+    </ul>
+    <hr>
+    <!-- TABLES -->
+    <h2>TABLES</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll no.</th>
+                <th>Marks</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gayatri</td>
+                <td>b20199</td>
+                <td>65</td>
+
+            </tr>
+            <tr>
+                <td>Rudra</td>
+                <td>b20201</td>
+                <td>100</td>
+
+            </tr>
+            <tr>
+                <td>Aniket</td>
+                <td>b20200</td>
+                <td>95</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+    <!-- Forms and Inputs -->
+    <hr>
+    <h2>HTML Forms and INPUT Tags</h2>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            Roll no:<input type="text" name="myroll">
+        </div>
+        <br>
+        <div>
+            Email:<input type="text" name="Myemail">
+        </div>
+        <br>
+        <div>
+            Are you Eligible:<input type="checkbox" name="Mycheckbox">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="Mygender">Female<input type="radio" name="Mygender">Other<input
+                type="radio" name="Mygender">
+        </div>
+        <br>
+        <div>
+            Write about yourself:<br><textarea name="Mytext" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car Type</label>
+            <select name="mycar" id="car">
+                <option value="ind">Indigo</option>
+                <option value="bmw">BMW</option>
+                <option value="wg">wagenar</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+    <!-- Inline and Block Elements -->
+    <!-- Inline element =An inline element does not start on a new line.An inline element only takes up as much width as necessary. -->
+    <!-- Block elements =A block-level element always starts on a new line.A block-level element always takes up the full width available (stretches out to the left and right as far as it can).A block level element has a top and a bottom margin, whereas an inline element does not. -->
+    <hr>
+    <h2>INLINE And BLOCK Elements</h2>
+    <p style="border: 2px solid red">This is a paragraph</p>
+    <p style="border: 2px solid blueviolet">This is also a paragraph</p>
+    <span style="border: 2px solid blue">this is a span</span><span style="border: 2px solid black">this is also a
+        span</span>
+    <!-- Ids(identifier)(same identifier cannot be used for another element) and classes(multiple classes can be given to a element and also multiple elements can have the same class) in html -->
+
+    <!-- "." is for class and "#" is fot id -->
+
+    <!-- Emmet takes div tag as default -->
+    <hr>
+    <h2>Ids and Classes</h2>
+    <div id="Mainbox" class="redbg blackborder">This is Mainbox</div>
+    <!-- span.myclass.myclass1.myclass2.myclass3*4 +<tab> to print 4 similar elements ussing Emmet -->
+    <span class="myclass myclass1 myclass2 myclass3">First</span>
+    <span class="myclass myclass1 myclass2 myclass3">Second</span>
+    <span class="myclass myclass1 myclass2 myclass3">Third</span>
+    <span class="myclass myclass1 myclass2 myclass3">Fourth</span>
+    <!-- HTML Entities  -->
+    <hr>
+    <h2>HTML Entities</h2>
+    <div>
+        <p>This is paragraph</p>
+    </div>
+    <div>
+        <p>This is another paragraph &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paragraph</p>
+        <p>This is how paragraph is wrtten &lt;p&gt; </p>
+    </div>
+    <!-- Semantic Tags(A semantic element clearly describes its meaning to both the browser and the developer.Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.) -->
+    <hr>
+    <h2>Semantic Tags</h2>
+    <!-- CSS/HTML Inline , Internal and External CSS  -->
+    <hr>
+    <h2>This is CSS</h2>
+    <!-- inline css  -->
+    <p style="color:red;background-color:yellow">Inline css is not recommended while giving style to a text or anythink
+        , mostly use only internal or external css</p>
+    <!-- Internal css is used inside the head tag -->
+    <hr>
+    <!-- CSS Selectors (element , id, class, css grouping selectors)  -->
+    <h2>CSS Selectors</h2>
+    <span>Element Selector</span>
+    <p id="redelement">Id Selector</p>
+    <p class="blueelement">Class Selector</p>
+
+    <hr>
+    <!-- Chrome developer tool  -->
+    <h2>Chrome developer Tools</h2>
+    <hr>
+    <!-- Can import fonts from google fonts -->
+    <h2>CSS Fonts</h2>
+    <P id="cssfont">lets study css font</P>
+    <hr>
+    <h2>Colors in CSS</h2>
+    <h3>This is my first box</h3>
+    <p id="firstpara">This is a paragraph fron First box</p>
+
+    <h3>This is my Second box</h3>
+    <p id="secondpara">This is a paragraph fron second box</p>
+
+    <h3>This is my third box</h3>
+    <p id="thirdpara">This is a paragraph from third box</p>
+    <hr>
+    <h2>Height , Width ,Borders and Backgrounds</h2>
+    <p id="newpara">This New Paragraph , here we will learn new things</p>
+    <p id="new1para">This is another new paragraph</p>
+    <hr>
+    <h2>Box Model , Padding , Margin</h2>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p class="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae amet aliquam nam sequi, aut
+            reprehenderit hic officia obcaecati. Aliquam numquam iste nostrum commodi officia provident debitis nisi cum
+            eaque, eius assumenda eum reiciendis cumque expedita consequuntur itaque! Molestias, magni impedit.</p>
+    </div>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae amet aliquam nam sequi, aut
+            reprehenderit hic officia obcaecati. Aliquam numquam iste nostrum commodi officia provident debitis nisi cum
+            eaque, eius assumenda eum reiciendis cumque expedita consequuntur itaque! Molestias, magni impedit.</p>
+    </div>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p class="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae amet aliquam nam sequi, aut
+            reprehenderit hic officia obcaecati. Aliquam numquam iste nostrum commodi officia provident debitis nisi cum
+            eaque, eius assumenda eum reiciendis cumque expedita consequuntur itaque! Molestias, magni impedit.</p>
+    </div>
+    <h2>Float And Clear Explained</h2>
+    <div class="container1">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error laudantium
+                eaque animi sapiente, ipsa laboriosam aspernatur iste voluptatibus perferendis molestiae culpa sed,
+                odio, dolores exercitationem consectetur nesciunt dolorum quod ex nobis! Eveniet quis sint optio illo
+                explicabo quam cumque ea?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error laudantium
+                eaque animi sapiente, ipsa laboriosam aspernatur iste voluptatibus perferendis molestiae culpa sed,
+                odio, dolores exercitationem consectetur nesciunt dolorum quod ex nobis! Eveniet quis sint optio illo
+                explicabo quam cumque ea?</p>
+        </div>
+        <div id="stationery" class="item">
+            <h3>stationary</h3>
+            <p id="stationerypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                laudantium eaque animi sapiente, ipsa laboriosam aspernatur iste voluptatibus perferendis molestiae
+                culpa sed, odio, dolores exercitationem consectetur nesciunt dolorum quod ex nobis! Eveniet quis sint
+                optio illo explicabo quam cumque ea?</p>
+        </div>
+    </div>
+    <hr>
+    <h2>Styling links and Buttons</h2>
+    <div class="cont" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi minima, sequi officiis adipisci aperiam
+            similique explicabo harum numquam voluptas est fugit eveniet quisquam eius. Blanditiis architecto, ullam
+            consectetur quis voluptatem voluptatum omnis fuga! Quis sapiente repellat dolores, explicabo quia eveniet?
+        </p>
+        <a href="" class="btn" id="rm">Read more</a>
+        <button class="btn" id="cu">contact us</button>
+    </div>
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+    </iframe>
+
+
+
+
+</body>
+
+</html>

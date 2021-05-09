@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <script>
+        function check() {
+            var c = 0;
+            var q1 = document.quiz.question1.value;
+            var q2 = document.quiz.question2.value;
+            var q3 = document.quiz.question3.value;
+            var q4 = document.quiz.question4.value;
+            var q5 = document.quiz.question5.value;
+            var q6 = document.quiz.question5.value;
+            var q7 = document.quiz.question5.value;
+            var q8 = document.quiz.question5.value;
+            if (q1 == "yes") { c++ }
+            if (q2 == "yes") { c++ }
+            if (q3 == "yes") { c++ }
+            if (q4 == "no") { c++ }
+            if (q5 == "yes") { c++ }
+            if (q5 == "yes") { c++ }
+            if (q5 == "no") { c++ }
+            if (q5 == "yes") { c++ }
+            document.write(c);
+        }
+    </script>
+    <style>
+        body {
+            background-image: url('https://images.all-free-download.com/images/graphicthumb/nostalgic_blue_background_06_hd_pictures_169782.jpg');
+           
+            background-position: centre centre;
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            font-size: 40px;
+            background-color: rgb(10, 51, 163, 0.5);
+            border: 4px solid rgba(4, 27, 90, 0.5);
+            border-radius: 20px;
+        }
+
+        h2 {
+            color: rgb(235, 62, 62);
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+        }
+
+        .test {
+
+            background-color: rgba(92, 118, 190, 0.5);
+            margin: 30px;
+            border: 3px solid rgb(15, 5, 109, 0.5);
+            border-radius: 20px;
+
+        }
+
+        .done1 {
+            padding: 30px;
+            margin: 23px;
+            text-align: center;
+            top: 95%;
+            left: 50%
+        }
+    </style>
+
+</head>
+<h1>A Small Test to check your State of Mind</h1>
+
+<body>
+    <h2>
+        <marquee behavior="alternate">please give answer on the basis of your last 2 week </marquee>
+    </h2><br>
+    <form name="quiz" id="quiz">
+        <div class="test">
+            <p><b>1. have you ever felt down, hopeless?</b></p>
+            <p><input type="radio" name="question1" value="yes">A. yes</p>
+            <p><input type="radio" name="question1" value="no">B. no</p>
+            <p><input type="radio" name="question1" value="not sure">C. not sure</p>
+
+        </div>
+        <div class="test">
+            <p><b>2. very less/little pleasure or interest in doing things?</b></p>
+            <p><input type="radio" name="question2" value="yes">A. yes</p>
+            <p><input type="radio" name="question2" value="no">B. no</p>
+            <p><input type="radio" name="question2" value="not sure">C. not sure</p>
+
+        </div>
+        <div class="test">
+            <p><b>3. sleeping too much or remain sleepy for hours even after awakening?</b></p>
+            <p><input type="radio" name="question3" value="yes">A. yes</p>
+            <p><input type="radio" name="question3" value="no">B. no</p>
+            <p><input type="radio" name="question3" value="not sure">C. not sure</p>
+        </div>
+        <div class="test">
+            <p><b>4. feeling fresh and enthusiastic most of time ?</b></p>
+            <p><input type="radio" name="question4" value="yes">A. yes</p>
+            <p><input type="radio" name="question4" value="no">B. no</p>
+        </div>
+        <div class="test">
+            <p><b>5. poor appetite or overeating?</b></p>
+            <p><input type="radio" name="question5" value="yes">A. yes</p>
+            <p><input type="radio" name="question5" value="no">B. no</p>
+        </div>
+        <div class="test">
+            <p><b>6. feeling bad about yourself- like you are a failure or you have let yourself and your family
+                    down?</b></p>
+            <p><input type="radio" name="question6" value="yes">A. yes</p>
+            <p><input type="radio" name="question6" value="no">B. no</p>
+        </div>
+        <div class="test">
+            <p><b>7. can concentrate on anything even if it is your most fav. thing/activity?</b></p>
+            <p><input type="radio" name="question3" value="yes">A. yes</p>
+            <p><input type="radio" name="question3" value="no">B. no</p>
+            <p><input type="radio" name="question3" value="not sure">C. not sure</p>
+        </div>
+        <div class="test">
+            <p><b>8. moving or speaking slowly so that it appears quite abnormal and noticable?</b></p>
+            <p><input type="radio" name="question3" value="yes">A. yes</p>
+            <p><input type="radio" name="question3" value="no">B. no</p>
+            <p><input type="radio" name="question3" value="not sure">C. not sure</p>
+        </div>
+        <div class="done1">
+            <input type="button" name="" value="Submit" onclick="check()">
+        </div>
+</body>
+
+</html>
